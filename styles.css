@@ -1,0 +1,97 @@
+.body{
+    background-color: rgb(31, 28, 28);font-family: sans-serif;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Banner{
+    height: 100vh;
+    background-image: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width:100%;
+    background-color: deepskyblue;
+}
+.nav-link:hover{
+    color:white!important;
+}
+.navbar-nav .nav-link{
+    font-weight: 600;
+}
+.BannerText{
+    
+    position: absolute;
+    
+    top: 50%;   
+    left:90%;
+    transform: translate(-50% , -50%);  
+}
+.BannerTitle{  
+    font-size: 4rem;
+    color:white;
+}
+span{
+    color: dodgerblue;
+    font-family:cursive;
+}
+.BannerDesc{
+    font-size: 2rem;
+    color:white;
+}
+.BannerImg{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 8%;
+    right: 100px;
+}
+.BannerImg img{
+    height: 100%;
+    position: absolute;
+    right:50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.BannerText p{
+    color: white;
+    font-size: larger;
+}
+.about{
+    margin-top:10%;
+    color:white;
+margin-bottom:2%
+}
+.aboutdesc{
+    color:white;
+    font-size: large;
+}
+.edu{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.education{
+    margin-bottom: 2%;
+    color:white;
+}
+.tech{
+    color: white;
+    margin-bottom: 2%;
+}
+.Contact-head{
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.form-label{
+    color:white;
+}
+.card:hover{
+    border-color: deeppink ;
+    background-color:deepskyblue;
+}
